@@ -9850,12 +9850,12 @@ var eraValues = {
 var quarterValues = {
   narrow: ['১', '২', '৩', '৪'],
   abbreviated: ['১ত্রৈ', '২ত্রৈ', '৩ত্রৈ', '৪ত্রৈ'],
-  wide: ['১ম ত্রৈমাসিক', '২য় ত্রৈমাসিক', '৩য় ত্রৈমাসিক', '৪র্থ ত্রৈমাসিক']
+  wide: ['১ম ত্রৈমাসিক', '২য় ত্রৈমাসিক', '৩য় ত্রৈমাসিক', '৪র্থ ত্রৈমাসিক']
 };
 var monthValues = {
   narrow: ['জানু', 'ফেব্রু', 'মার্চ', 'এপ্রিল', 'মে', 'জুন', 'জুলাই', 'আগস্ট', 'সেপ্ট', 'অক্টো', 'নভে', 'ডিসে'],
   abbreviated: ['জানু', 'ফেব্রু', 'মার্চ', 'এপ্রিল', 'মে', 'জুন', 'জুলাই', 'আগস্ট', 'সেপ্ট', 'অক্টো', 'নভে', 'ডিসে'],
-  wide: ['জানুয়ারি', 'ফেব্রুয়ারি', 'মার্চ', 'এপ্রিল', 'মে', 'জুন', 'জুলাই', 'আগস্ট', 'সেপ্টেম্বর', 'অক্টোবর', 'নভেম্বর', 'ডিসেম্বর']
+  wide: ['জানুয়ারি', 'ফেব্রুয়ারি', 'মার্চ', 'এপ্রিল', 'মে', 'জুন', 'জুলাই', 'আগস্ট', 'সেপ্টেম্বর', 'অক্টোবর', 'নভেম্বর', 'ডিসেম্বর']
 };
 var dayValues = {
   narrow: ['র', 'সো', 'ম', 'বু', 'বৃ', 'শু', 'শ'],
@@ -9964,7 +9964,7 @@ function ordinalNumber(dirtyNumber, dirtyOptions) {
   switch (rem10) {
     case 2:
     case 3:
-      return localeNumber + 'য়';
+      return localeNumber + 'য়';
 
     case 4:
       return localeNumber + 'র্থ';
@@ -17718,8 +17718,6 @@ module.exports = {"init":"Gitalk 載入中…","no-found-related":"未找到相�
 /***/ (function(module, exports) {
 
 module.exports = {"init":"Gitalking ...","no-found-related":"Related %{link} not found","please-contact":"Please contact %{user} to initialize the comment","init-issue":"Init Issue","leave-a-comment":"Leave a comment","preview":"Preview","edit":"Edit","comment":"Comment","support-markdown":"Markdown is supported","login-with-github":"Login with GitHub","first-comment-person":"Be the first person to leave a comment!","commented":"commented","load-more":"Load more","counts":"%{counts} comment |||| %{counts} comments","sort-asc":"Sort by Oldest","sort-desc":"Sort by Latest","logout":"Logout","anonymous":"Anonymous"}
-
-// module.exports = {"init":"Đang tải bình luận ...","no-found-related":"Không tìm thấy %{link} liên quan","please-contact":"Liên hệ %{user} để tạo bình luận nha","init-issue":"Tạo bình luận","leave-a-comment":"Để lại bình luận đi bạn gì ơi","preview":"Xem trước","edit":"Chỉnh sửa","comment":"Gửi","support-markdown":"Hỗ trợ Markdown","login-with-github":"Đăng nhập GitHub","first-comment-person":"Cắm cờ bình luận trước đi bạn ơi 🚩","commented":"đã bình luận","load-more":"Hiển thị thêm","counts":"%{counts} bình luận |||| %{counts} bình luận","sort-asc":"Cũ nhất","sort-desc":"Mới nhất","logout":"Đăng xuất","anonymous":"Ẩn danh"}
 
 /***/ }),
 /* 265 */
@@ -32905,8 +32903,8 @@ var locale = {
 
 var formatDistanceLocale = {
   lessThanXSeconds: {
-    one: 'প্রায় ১ সেকেন্ড',
-    other: 'প্রায় {{count}} সেকেন্ড'
+    one: 'প্রায় ১ সেকেন্ড',
+    other: 'প্রায় {{count}} সেকেন্ড'
   },
   xSeconds: {
     one: '১ সেকেন্ড',
@@ -32914,16 +32912,16 @@ var formatDistanceLocale = {
   },
   halfAMinute: 'আধ মিনিট',
   lessThanXMinutes: {
-    one: 'প্রায় ১ মিনিট',
-    other: 'প্রায় {{count}} মিনিট'
+    one: 'প্রায় ১ মিনিট',
+    other: 'প্রায় {{count}} মিনিট'
   },
   xMinutes: {
     one: '১ মিনিট',
     other: '{{count}} মিনিট'
   },
   aboutXHours: {
-    one: 'প্রায় ১ ঘন্টা',
-    other: 'প্রায় {{count}} ঘন্টা'
+    one: 'প্রায় ১ ঘন্টা',
+    other: 'প্রায় {{count}} ঘন্টা'
   },
   xHours: {
     one: '১ ঘন্টা',
@@ -32934,24 +32932,24 @@ var formatDistanceLocale = {
     other: '{{count}} দিন'
   },
   aboutXWeeks: {
-    one: 'প্রায় ১ সপ্তাহ',
-    other: 'প্রায় {{count}} সপ্তাহ'
+    one: 'প্রায় ১ সপ্তাহ',
+    other: 'প্রায় {{count}} সপ্তাহ'
   },
   xWeeks: {
     one: '১ সপ্তাহ',
     other: '{{count}} সপ্তাহ'
   },
   aboutXMonths: {
-    one: 'প্রায় ১ মাস',
-    other: 'প্রায় {{count}} মাস'
+    one: 'প্রায় ১ মাস',
+    other: 'প্রায় {{count}} মাস'
   },
   xMonths: {
     one: '১ মাস',
     other: '{{count}} মাস'
   },
   aboutXYears: {
-    one: 'প্রায় ১ বছর',
-    other: 'প্রায় {{count}} বছর'
+    one: 'প্রায় ১ বছর',
+    other: 'প্রায় {{count}} বছর'
   },
   xYears: {
     one: '১ বছর',
@@ -32962,8 +32960,8 @@ var formatDistanceLocale = {
     other: '{{count}} বছরের বেশি'
   },
   almostXYears: {
-    one: 'প্রায় ১ বছর',
-    other: 'প্রায় {{count}} বছর'
+    one: 'প্রায় ১ বছর',
+    other: 'প্রায় {{count}} বছর'
   }
 };
 function formatDistance(token, count, options) {
@@ -33009,8 +33007,8 @@ var timeFormats = {
   short: 'h:mm a'
 };
 var dateTimeFormats = {
-  full: "{{date}} {{time}} 'সময়'",
-  long: "{{date}} {{time}} 'সময়'",
+  full: "{{date}} {{time}} 'সময়'",
+  long: "{{date}} {{time}} 'সময়'",
   medium: '{{date}}, {{time}}',
   short: '{{date}}, {{time}}'
 };
@@ -33037,11 +33035,11 @@ var formatLong = {
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = formatRelative;
 var formatRelativeLocale = {
-  lastWeek: "'গত' eeee 'সময়' p",
-  yesterday: "'গতকাল' 'সময়' p",
-  today: "'আজ' 'সময়' p",
-  tomorrow: "'আগামীকাল' 'সময়' p",
-  nextWeek: "eeee 'সময়' p",
+  lastWeek: "'গত' eeee 'সময়' p",
+  yesterday: "'গতকাল' 'সময়' p",
+  today: "'আজ' 'সময়' p",
+  tomorrow: "'আগামীকাল' 'সময়' p",
+  nextWeek: "eeee 'সময়' p",
   other: 'P'
 };
 function formatRelative(token, _date, _baseDate, _options) {
@@ -33057,7 +33055,7 @@ function formatRelative(token, _date, _baseDate, _options) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__lib_buildMatchFn_index_js__ = __webpack_require__(5);
 
 
-var matchOrdinalNumberPattern = /^(\d+)(ম|য়|র্থ|ষ্ঠ|শে|ই|তম)?/i;
+var matchOrdinalNumberPattern = /^(\d+)(ম|য়|র্থ|ষ্ঠ|শে|ই|তম)?/i;
 var parseOrdinalNumberPattern = /\d+/i;
 var matchEraPatterns = {
   narrow: /^(খ্রিঃপূঃ|খ্রিঃ)/i,
@@ -33072,7 +33070,7 @@ var parseEraPatterns = {
 var matchQuarterPatterns = {
   narrow: /^[১২৩৪]/i,
   abbreviated: /^[১২৩৪]ত্রৈ/i,
-  wide: /^[১২৩৪](ম|য়|র্থ)? ত্রৈমাসিক/i
+  wide: /^[১২৩৪](ম|য়|র্থ)? ত্রৈমাসিক/i
 };
 var parseQuarterPatterns = {
   any: [/১/i, /২/i, /৩/i, /৪/i]
@@ -33080,7 +33078,7 @@ var parseQuarterPatterns = {
 var matchMonthPatterns = {
   narrow: /^(জানু|ফেব্রু|মার্চ|এপ্রিল|মে|জুন|জুলাই|আগস্ট|সেপ্ট|অক্টো|নভে|ডিসে)/i,
   abbreviated: /^(জানু|ফেব্রু|মার্চ|এপ্রিল|মে|জুন|জুলাই|আগস্ট|সেপ্ট|অক্টো|নভে|ডিসে)/i,
-  wide: /^(জানুয়ারি|ফেব্রুয়ারি|মার্চ|এপ্রিল|মে|জুন|জুলাই|আগস্ট|সেপ্টেম্বর|অক্টোবর|নভেম্বর|ডিসেম্বর)/i
+  wide: /^(জানুয়ারি|ফেব্রুয়ারি|মার্চ|এপ্রিল|মে|জুন|জুলাই|আগস্ট|সেপ্টেম্বর|অক্টোবর|নভেম্বর|ডিসেম্বর)/i
 };
 var parseMonthPatterns = {
   any: [/^জানু/i, /^ফেব্রু/i, /^মার্চ/i, /^এপ্রিল/i, /^মে/i, /^জুন/i, /^জুলাই/i, /^আগস্ট/i, /^সেপ্ট/i, /^অক্টো/i, /^নভে/i, /^ডিসে/i]
