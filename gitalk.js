@@ -17717,7 +17717,7 @@ module.exports = {"init":"Gitalk 載入中…","no-found-related":"未找到相�
 /* 264 */
 /***/ (function(module, exports) {
 
-module.exports = {"init":"Gitalking ...","no-found-related":"Related %{link} not found","please-contact":"Please contact %{user} to initialize the comment","init-issue":"Init Issue","leave-a-comment":"Leave a comment","preview":"Preview","edit":"Edit","comment":"Comment","support-markdown":"Markdown is supported","login-with-github":"Login with GitHub","first-comment-person":"Be the first person to leave a comment!","commented":"commented","load-more":"Load more","counts":"%{counts} comment |||| %{counts} comments","sort-asc":"Sort by Oldest","sort-desc":"Sort by Latest","logout":"Logout","anonymous":"Anonymous"}
+module.exports = {"init":"Đang tải bình luận...","no-found-related":"Không tìm thấy %{link} liên quan","please-contact":"Liên hệ với %{user} để tạo bình luận này","init-issue":"Tạo bình luận","leave-a-comment":"Để lại bình luận tại đây","preview":"Xem trước","edit":"Chỉnh Sửa","comment":"Submit","support-markdown":"Hỗ trợ Markdown","login-with-github":"Đăng Nhập","first-comment-person":"Hãy là người đầu tiên để lại bình luận!","commented":"đã bình luận","load-more":"Hiển thị thêm","counts":"%{counts} bình luận |||| %{counts} bình luận","sort-asc":"Sắp xếp cũ nhất","sort-desc":"Sắp xếp mới nhất","logout":"Đăng xuất","anonymous":"Ẩn danh"}
 
 /***/ }),
 /* 265 */
